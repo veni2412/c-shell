@@ -17,7 +17,10 @@ Features
 - Job control with signal handling (`SIGINT`, `SIGTSTP`, `SIGCONT`, `SIGKILL`)
 
 Build Instructions
-```make all```
+```
+bash
+make all
+```
 
 
 This generates the executable `shell.out` inside the `shell/` directory.
