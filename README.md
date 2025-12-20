@@ -6,7 +6,7 @@ Core features include input parsing with syntax validation, foreground and backg
 
 The shell was built incrementally, starting from prompt handling and parsing, and extending to process control, signal handling, and job management.
 
-Features
+## Features
 - Custom shell prompt with home-directory expansion (`~`)
 - Grammar-based input parsing with syntax validation
 - Built-in commands: `hop`, `reveal`, `log`, `activities`, `ping`, `fg`, `bg`
@@ -16,9 +16,8 @@ Features
 - Persistent command history across shell sessions
 - Job control with signal handling (`SIGINT`, `SIGTSTP`, `SIGCONT`, `SIGKILL`)
 
-Build Instructions
-```
-bash
+## Build Instructions
+```bash
 make all
 ```
 
